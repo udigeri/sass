@@ -1,4 +1,62 @@
-body {
-    background: rgb(218, 217, 217);
-    color: rgb(82, 80, 83);
+html {
+  box-sizing: border-box;
 }
+
+*, *::before, *::after {
+  box-sizing: inherit;
+}
+
+body {
+  background: rgb(194, 193, 193);
+  color: rgb(82, 80, 83);
+  padding: 3rem;
+  font-size: 100%;
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande", "Lucida Sans", Arial, sans-serif;
+  font-weight: normal;
+  -webkit-font-smoothing: antialiased;
+}
+
+h2 {
+  margin-top: 0;
+}
+
+p {
+  margin-bottom: 0px;
+}
+
+article {
+  width: 640px;
+  padding: 30px;
+  margin: 0 auto;
+  background: #d6d6d5;
+  border: 2px solid black;
+  border: 4px solid white;
+  border-radius: 20px;
+}
+
+h2 {
+  font-size: 26px;
+  text-transform: uppercase;
+}
+
+img {
+  float: left;
+  margin: 0 24px 10px 0;
+  width: 60px;
+}
+
+.text {
+  font-size: 14px;
+}
+.text p {
+  line-height: 16px;
+}
+.text p:first-of-type {
+  font-size: 18px;
+  line-height: 26px;
+}
+.text small {
+  font-size: 12px;
+}
+
+/*# sourceMappingURL=style.css.map */
