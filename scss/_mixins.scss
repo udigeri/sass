@@ -1,0 +1,4 @@
+@mixin pozadie($color) {
+    background: rgb($color);
+    background: rgba($color, 0.8);
+}

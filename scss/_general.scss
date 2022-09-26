@@ -1,0 +1,43 @@
+//
+// GENERAL
+// --------------------------------------------------
+
+html {
+    box-sizing: border-box;
+  }
+  
+  *,
+  *::before,
+  *::after {
+    box-sizing: inherit;
+  }
+  
+  body {
+    background: $color-bg-body;
+    color: $color-text;
+    
+    padding: 2rem;
+    
+    font: {
+      size: 100%;
+      family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+        "Lucida Sans", Arial, sans-serif;
+      weight: normal;
+    }
+  
+    -webkit-font-smoothing: antialiased;
+  }
+  
+  .menu {
+    margin: 0;
+    padding-left: 0;
+    list-style: none;
+  
+    text-align: center;
+    li, a {
+      display: inline-block;
+    }
+  
+  }
+  
+  
