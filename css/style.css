@@ -1,9 +1,3 @@
-/* line 1, D:/ProjectsPython/sass/scss/style.scss */
-footer,
-.text > :not(h2) {
-  display: none;
-}
-
 /* line 5, D:/ProjectsPython/sass/scss/_general.scss */
 html {
   box-sizing: border-box;
@@ -40,29 +34,24 @@ body {
   display: inline-block;
 }
 
-/* line 11, D:/ProjectsPython/sass/scss/style.scss */
+/* line 15, D:/ProjectsPython/sass/scss/style.scss */
 .home {
-  background-color: black;
+  background-color: #2f313c;
 }
 
-/* line 11, D:/ProjectsPython/sass/scss/style.scss */
+/* line 15, D:/ProjectsPython/sass/scss/style.scss */
 .gallery {
   background-color: white;
 }
 
-/* line 11, D:/ProjectsPython/sass/scss/style.scss */
+/* line 15, D:/ProjectsPython/sass/scss/style.scss */
 .products {
   background-color: hotpink;
 }
 
-/* line 11, D:/ProjectsPython/sass/scss/style.scss */
+/* line 15, D:/ProjectsPython/sass/scss/style.scss */
 .contact {
   background-color: green;
-}
-
-/* line 17, D:/ProjectsPython/sass/scss/style.scss */
-p {
-  margin-bottom: 0px;
 }
 
 /* line 20, D:/ProjectsPython/sass/scss/style.scss */
@@ -72,52 +61,112 @@ a {
 }
 
 /* line 25, D:/ProjectsPython/sass/scss/style.scss */
-article {
-  width: 640px;
-  padding: 30px;
+.site-header {
+  background: #000;
+  border-bottom: 1px solid #63c5db;
+}
+
+/* line 30, D:/ProjectsPython/sass/scss/style.scss */
+nav a {
+  font-size: 16px;
+  text-align: center;
+  display: inline-block;
+  padding: 24px 8px;
+}
+
+/* line 37, D:/ProjectsPython/sass/scss/style.scss */
+nav a {
+  color: #777;
+}
+
+/* line 41, D:/ProjectsPython/sass/scss/style.scss */
+nav a:hover,
+nav a:focus {
+  color: #9f9f9f;
+}
+
+/* line 45, D:/ProjectsPython/sass/scss/style.scss */
+.container {
   margin: 0 auto;
+  max-width: 960px;
+  padding: 0 16px;
+}
+
+/* line 51, D:/ProjectsPython/sass/scss/style.scss */
+article {
+  padding: 20px 20px;
+  margin: 1rem auto;
   background: #d6d6d5;
+  background: rgba(214, 214, 213, 0.8);
   border: 2px solid #252525;
   border: 4px solid #f8eaea;
   border-radius: 20px;
 }
 
-/* line 35, D:/ProjectsPython/sass/scss/style.scss */
+/* line 60, D:/ProjectsPython/sass/scss/style.scss */
 h2 {
   margin-top: 0;
   font-size: 26px;
+  line-height: 32px;
   text-transform: uppercase;
   text-shadow: -1px 1px #b3b3b3;
 }
 
-/* line 46, D:/ProjectsPython/sass/scss/style.scss */
+/* line 72, D:/ProjectsPython/sass/scss/style.scss */
 img {
   float: left;
   width: 120px;
   margin: 5px;
-  border: 1px solid #252525;
 }
 
-/* line 53, D:/ProjectsPython/sass/scss/style.scss */
+/* line 79, D:/ProjectsPython/sass/scss/style.scss */
 .text {
   font-size: 14px;
 }
 
-/* line 56, D:/ProjectsPython/sass/scss/style.scss */
+/* line 82, D:/ProjectsPython/sass/scss/style.scss */
 .text p {
-  line-height: 16px;
+  line-height: 18px;
 }
 
-/* line 60, D:/ProjectsPython/sass/scss/style.scss */
+/* line 86, D:/ProjectsPython/sass/scss/style.scss */
 .text p:first-of-type {
-  font-size: 18px;
-  line-height: 26px;
+  font-size: 20px;
+  line-height: 28px;
 }
 
-/* line 65, D:/ProjectsPython/sass/scss/style.scss */
+/* line 91, D:/ProjectsPython/sass/scss/style.scss */
 .text small {
   font-size: 12px;
   color: #9c511c;
+}
+
+/* line 97, D:/ProjectsPython/sass/scss/style.scss */
+.shadow {
+  text-shadow: -1px 1px gray;
+}
+
+/* line 101, D:/ProjectsPython/sass/scss/style.scss */
+.small {
+  font-size: 12px;
+  /* 12/16 */
+  line-height: 18px;
+  /* 18/12 */
+  margin: 0;
+}
+
+/* line 107, D:/ProjectsPython/sass/scss/style.scss */
+.pre-footer {
+  background: #363842;
+  padding: 68px 0 72px;
+  position: relative;
+  z-index: 1;
+}
+
+/* line 114, D:/ProjectsPython/sass/scss/style.scss */
+.site-footer span {
+  color: #4e5666;
+  padding-left: 16px;
 }
 
 /*# sourceMappingURL=style.css.map */

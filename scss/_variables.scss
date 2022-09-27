@@ -9,8 +9,10 @@ $color-bg-body: #2f313c;
 $color-bg-home: #ffd256;
 
 $pages: (
-    'home': black,
+    'home': #2f313c,
     'gallery': white,
     'products': hotpink,
     'contact': green
 );
+
+$debug: false;

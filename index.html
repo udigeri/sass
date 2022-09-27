@@ -8,20 +8,22 @@
     <link rel="stylesheet" href="css/normalize.css" />
     <link rel="stylesheet" href="css/style.css" />
   </head>
-  <body>
-    <header class="menu">
-      <ol>
-        <li><a href="index.html">Home</a></li>
-        <li><a href="#">Gallery</a></li>
-        <li><a href="#">Products</a></li>
-        <li><a href="#">Contact</a></li>
-      </ol>
+  <body class="home">
+    <header class="site-header">
+      <nav class="container">
+        <ol class="menu">
+          <li class="active"><a href="index.html">Home</a></li>
+          <li><a href="#">Gallery</a></li>
+          <li><a href="#">Products</a></li>
+          <li><a href="#">Contact</a></li>
+        </ol>
+      </nav>
     </header>
 
     <main>
-      <article class="text">
-        <h2>CCV</h2>
-        <p>
+      <article class="text container">
+        <h2 class="shadow">CCV</h2>
+        <p class="shadow">
           <img src="img/ccv.png" alt="ccv brand logo" />
           Your success is our success.
         </p>
@@ -33,9 +35,9 @@
         <small> 22.09.2022 </small>
       </article>
 
-      <article class="text">
-        <h2>NMI</h2>
-        <p>
+      <article class="text container">
+        <h2 class="shadow">NMI</h2>
+        <p class="shadow">
           <img src="img/nmi.png" alt="nmi brand logo" />
           Full commerce is the future — we get you there now.
         </p>
@@ -48,6 +50,29 @@
       </article>
     </main>
 
-    <footer>Copyrights Udi 2022</footer>
+    <aside class="pre-footer">
+      <div class="container">
+        <h3>Buy our stuff</h3>
+  
+        <p>
+          This is a website, so obviously we are trying to sell you something.<br>
+          Click here, so we can send you emails you don't want!
+        </p>
+  
+        <a href="#" class="btn btn-green">Clicken Sie bitte!!!</a>
+      </div>
+    </aside>
+  
+    <footer class="site-footer">
+      <div class="container">
+        <p class="small">
+          &copy; Udi Salenota, Inc.
+          <span>
+            2022
+          </span>
+        </p>
+      </div>
+    </footer>
+  
   </body>
 </html>
